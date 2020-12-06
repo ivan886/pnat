@@ -29,6 +29,8 @@ public class EspecieController {
     public void save(@RequestBody Especie especie) {
         especieService.save(especie);
     }
+    
+    
  @RequestMapping("/especies/{id}")
     public Optional<Especie> findById(@PathVariable Integer id){
         return especieService.findById(id);

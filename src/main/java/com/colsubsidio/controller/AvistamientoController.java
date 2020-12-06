@@ -3,7 +3,7 @@ package com.colsubsidio.controller;
 
 import com.colsubsidio.entities.Avistamiento;
 import com.colsubsidio.repositories.AvistamientoRepository;
-import com.colsubsidio.services.PersonaService;
+import com.colsubsidio.services.UsuarioService;
 
 import java.util.List;
 import java.util.Optional;

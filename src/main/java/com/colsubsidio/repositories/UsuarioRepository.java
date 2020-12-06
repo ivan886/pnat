@@ -5,13 +5,12 @@
  */
 package com.colsubsidio.repositories;
 
-import com.colsubsidio.entities.Persona;
+import com.colsubsidio.entities.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UsuarioRepository extends JpaRepository<Persona, Integer> {
+public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
 	
-	public Persona findByNombre(String nombre);
-	public Persona findByCodigoPersona(Long id);	
+	
 }
